@@ -12,45 +12,6 @@
       <header>
         <h1>Password Generator</h1>
       </header>
-        <ul>
-          <fieldset>
-           <legend>Password Criteria</legend>
-           <li>
-             <input type="checkbox" id="chkLower" name="chkLower">
-              <label for="lower">Lower case Character</label>
-           </li>
-            <li>
-             <input type="checkbox" id="chkUpper" name="chkUpper">
-             <label for="upper">Upper case Character</label>
-           </li>
-           <li>
-            <input type="checkbox" id="chkNum" name="chkNum">
-            <label for="num">Numeric Character</label>
-           </li>
-           <li>
-            <input type="checkbox" id="chkSpec" name="chkSpec">
-            <label for="special">Special Character</label>
-          </li>
-          <li>
-            <label for="length">Length of Password</label>
-            <input type="text" id="txtLen" name="txtLen">
-          </li>
-      </fieldset>
-        <li class="button">
-          <button type="submit">Generate Password</button>
-          <INPUT TYPE="button" NAME="button" onClick="testResults(this.form)">
-        </li>
-       </ul>
-    </form> -->
-    <FORM NAME="myform" ACTION="" METHOD="GET">
-      Password Criteria<BR><p>
-      <input type="checkbox" name="chkLower" unchecked><label>Lower Case Character</label><p> 
-      <input type="checkbox" name="chkUpper" unchecked><label>Upper Case Character</label><p> 
-      <input type="checkbox" name="chkNum" unchecked><label>Numeric Character</label><p> 
-      <input type="checkbox" name="chkSpecial" unchecked><label>Special Character</label><p>
-      <input type="text" name="txtLength" value=""><label>Password Length (8-128 Characters)</label><p>
-      <INPUT TYPE="button" NAME="button" Value="Generate Password" onClick="writePassword(this.form)" onfocus="CheckLength(this.form)">
-    </FORM>
       <div class="card">
         <div class="card-header">
           <h2>Generate a Password</h2>
