@@ -22,7 +22,7 @@ var special = " !\"#$&'()*+,-./:;<=>?@[\\]^_`{|}~";
       lower: "n",
       numbers: "n",
       special: "n",
-      }
+      };
   
   password = askPasswordCriteria (password);
 
