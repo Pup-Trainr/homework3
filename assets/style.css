@@ -5,7 +5,13 @@
 }
 
 html,
-body,
+
+body {
+  background-image: url(795336.jpg);
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  color: #fff;
+   },
 .wrapper {
   height: 100%;
   margin: 0;
