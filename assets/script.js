@@ -15,7 +15,7 @@ var special = " !\"#$&'()*+,-./:;<=>?@[\\]^_`{|}~";
    passwordText.value = password; 
    }
 
-  function generatePassowrd () {
+  function generatePassword () {
     var password = {
       pwLength: 0,
       upper: "n",
